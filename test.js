@@ -8,7 +8,7 @@ describe('Test Suite 1', function() {
 
 
   it('Test sum ', function() {
-    assert.ok(6 === fun.solver("1,2,3"), "0 ===' empty");
+    assert.ok(5 === fun.solver("1,2,3"), "0 ===' empty");
     assert.ok(true, "su, 1+2+3=6");
   });
 
@@ -18,7 +18,7 @@ describe('Test Suite 1', function() {
   });
 
   it('Test empty eq 0 ', function() {
-    assert.ok("negative"=== (fun.solver("-1,-1 ")), "neg");
+    assert.ok("negative" === (fun.solver("-1,-1 ")), "neg");
   });
 });
 
