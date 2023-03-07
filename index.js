@@ -8,13 +8,13 @@ function converter(string) {
 
 function summer(arr) {
 
-  if(arr.find(e=>e<0))return('negative');
+  if (arr.find(e => e < 0)) return ('negative');
   return arr.reduce((accumulator, currentValue) => accumulator + currentValue)
 }
 
 function solver(s) { return summer(converter(s)) }
 
-console.log(solver("-1"))
+
 
 module.exports = {
   solver: solver
